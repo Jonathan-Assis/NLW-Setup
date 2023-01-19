@@ -14,4 +14,6 @@ app.get('/', () => {
 
 app.listen({
     port: 3333
+}).then(() => {
+    console.log("Server Running","\u001b[92mhttp://localhost:3333" );
 })
