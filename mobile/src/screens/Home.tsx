@@ -1,4 +1,4 @@
-import './src/lib/dayjs';
+import '../lib/dayjs';
 import { Text, View, ScrollView } from "react-native";
 import { generateRangeDatesFromYearStart } from '../utils/generate-range-between-dates';
 import { HabitDay, Header } from "../components";
