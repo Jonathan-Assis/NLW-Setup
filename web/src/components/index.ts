@@ -1,9 +1,13 @@
-import { Header } from "./Header";
-import { SummaryTable } from "./SummaryTable";
 import { HabitDay } from "./HabitDay";
+import { Header } from "./Header";
+import { NewHabitForm } from "./NewHabitForm";
+import { ProgressBar } from "./ProgressBar";
+import { SummaryTable } from "./SummaryTable";
 
 export {
-    Header,
-    SummaryTable,
     HabitDay,
+    Header,
+    NewHabitForm,
+    ProgressBar,
+    SummaryTable,
 }
