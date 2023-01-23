@@ -3,7 +3,7 @@ import { Text, View, ScrollView, Alert } from "react-native";
 import { useNavigation } from '@react-navigation/native';
 
 import { api } from '../lib/axios';
-import { generateRangeDatesFromYearStart } from '../utils/generate-range-between-dates';
+import { generateRangeDatesFromYearStart } from '../utils';
 
 import { HabitDay, Header, Loading } from "../components";
 import { DAY_SIZE } from "../components/HabitDay";
