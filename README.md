@@ -1,6 +1,6 @@
 # NLW Setup - `Habits`
 <div align="center">
-    <img src="src/images/NLWSetupWallpaper.png"  alt="Poster NLW Setup One step every day">
+    <img src="src/images/NLWSetupWallpaper.jpg"  alt="Poster NLW Setup One step every day">
 </div>
 
 # Sumário <br id="topo">
