@@ -45,7 +45,8 @@ Demonstrativo das aplicações reais em execução.
 A preparação do ambiente do projeto `Habits` é dividida em três **pastas** sendo elas:
 > Após o clone deste repositório siga os procedimentos abaixo.
 
-<details><a name="pserver"></a>
+<a name="pserver"></a>
+<details>
 <summary>📂 server<br>Clique aqui para abrir o tutorial</summary>
 
 1. Acesse a pasta **server** para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
@@ -65,7 +66,8 @@ npx prisma studio
 </details>
 <br>
 
-<details><a name="pweb"></a>
+<a name="pweb"></a>
+<details>
 <summary>📂 web<br>Clique aqui para abrir o tutorial</summary>
 
 1. Acesse a pasta **web** para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
@@ -85,7 +87,8 @@ http://localhost:5173/
 </details>
 <br>
 
-<details><a name="pmobile"></a>
+<a name="pmobile"></a>
+<details>
 <summary>📂 mobile<br>Clique aqui para abrir o tutorial</summary>
 
 1. Acesse a pasta **mobile** para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
