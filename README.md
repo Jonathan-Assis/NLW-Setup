@@ -39,13 +39,13 @@ Demonstrativo das aplicações reais em execução.
 
 # ☕ Ambientação  <a name="ambientacao"></a>
 
-A preparação do ambiente do projeto `Habits` é dividade em três pastas sendo elas:
+A preparação do ambiente do projeto `Habits` é dividida em três **pastas** sendo elas:
 > Após o clone deste repositório siga os procedimentos abaixo.
 
 <details>
-<summary><u>Clique aqui para abrir o tutorial</u><br>📂 server</summary>
+<summary>📂 server<br>Clique aqui para abrir o tutorial</summary>
 
-1. Acesse a pasta server para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
+1. Acesse a pasta **server** para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
 ```console
 npm install
 ```
@@ -53,7 +53,7 @@ npm install
 ```console
 npm run dev
 ```
-3. Para visualizar o banco de dados atual, abra um segundo terminal acessando também a pasta server enquanto a aplicação do servidor continua rodando em outro terminal, digitando no segundo terminal:
+3. Para visualizar o banco de dados atual, abra um _segundo terminal_ acessando também a pasta server enquanto a aplicação do servidor continua rodando no primeiro terminal, digitando no segundo terminal:
 > Nota: Para visualizar o banco de dados é necessário que o servidor continue rodando.
 ```console
 npx prisma studio
@@ -63,14 +63,14 @@ npx prisma studio
 <br>
 
 <details>
-<summary><u>Clique aqui para abrir o tutorial</u><br>📂 web</summary>
+<summary>📂 web<br>Clique aqui para abrir o tutorial</summary>
 
-1. Acesse a pasta web para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
+1. Acesse a pasta **web** para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
 ```console
 npm install
 ```
 2. Após a instalação das dependências, é possível iniciar a aplicação Web digitando no terminal:
-> Nota: Para visualizar a aplicação Web com os "dados" do banco de dados é necessário que um terminal ainda esteja rodando o servidor.
+> Nota: Para visualizar a aplicação Web com os "dados" do banco de dados, é necessário que um terminal ainda esteja rodando o servidor.
 ```console
 npm run dev
 ```
@@ -79,27 +79,25 @@ npm run dev
 http://localhost:5173/
 ```
 
-
 </details>
 <br>
 
-
 <details>
-<summary><u>Clique aqui para abrir o tutorial</u><br>📂 mobile</summary>
+<summary>📂 mobile<br>Clique aqui para abrir o tutorial</summary>
 
-1. Acesse a pasta mobile para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
+1. Acesse a pasta **mobile** para executar os comandos e efetue a instalação das dependências no terminal da pasta digitando:
 ```console
 npm install
 ```
 2. Após a instalação das dependências, é possível iniciar a aplicação Mobile digitando no terminal:
-> Nota: Para visualizar a aplicação Mobile com os "dados" do banco de dados é necessário que um terminal ainda esteja rodando o servidor.
+> Nota: Para visualizar a aplicação Mobile com os "dados" do banco de dados, é necessário que um terminal ainda esteja rodando o servidor.
 ```console
 npm start
 ```
 > Note: Você deverá editar o arquivo .env.example renomeando para .env e alterar o conteúdo dele informando o ip onde o expo está rodando sua aplicação.
 
-3. Caso você faça muitas alterações onde é necessário esvaziar o cache atual do build faça:
-> Nota: Este comando irá esvaziar o cache atual, após isto você poderá executar as próximas vezes com `npm run start`.
+3. Caso você faça muitas alterações, onde é necessário esvaziar o cache atual do build faça:
+> Nota: Este comando irá esvaziar o cache atual, após isto você poderá executar as próximas vezes com `npm start`.
 ```console
 npm run clear
 ```
@@ -123,7 +121,7 @@ npm run clear
 
 - [![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-    Utilizado para ter um melhor desenvolvimento fazendo a tipagem dos dados nas duas aplicações evitando assim possíveis erros.
+    Utilizado para ter um melhor desenvolvimento, fazendo a tipagem dos dados nas duas aplicações evitando assim possíveis erros.
 
 - [![](https://img.shields.io/badge/%20-Expo-FFFFFF?style=for-the-badge&logo=expo&logoColor=black)](https://expo.dev/)
 
@@ -135,7 +133,7 @@ npm run clear
 
 - [![](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
 
-    Layout utilizado <a href="https://www.figma.com/community/file/1195326661124171197">**Habits (i)** da Rocketseat.</a>
+    Layout utilizado <a href="https://www.figma.com/community/file/1195326661124171197">**Habits (i)** da Rocketseat.</a> na criação das telas.
 
 <hr>
 
